@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root{
+    --cor-destaque: #aa5959;
+    --cor-black: #1B1B1B;
+    --cor-white: #ECECEC;
+    --titulo-fonte: "Montserrat", sans-serif;
+    --corpo-da-fonte: "Poppins, sans-serif;"
+}
+
 header::before{
     content: "";
     background-image: url("../images/Rectangle\ 1.png");
@@ -26,3 +34,27 @@ h2{
     font-weight: 800;
 }
 
+#secao-apresentacao {
+    display: flex;
+    padding: 4rem;
+}
+
+#secao-apresentacao img { 
+    border-radius: 50%;
+
+}
+
+#texto-apresentacao img{
+    color: var(--cor-white);
+}
+
+#texto-apresentacao h2{
+    font-size: 2.5rem;
+    font-family: var(--font-title);
+}
+
+#texto-apresentacao h3{
+    font-size: 1.5rem;
+    font-family: var(--font-body);
+    color: white;
+}
